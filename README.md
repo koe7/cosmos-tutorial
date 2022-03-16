@@ -26,3 +26,55 @@
 3. 첫번째 주 태건(Session Plan / What is Cosmos), 두번째 주 동욱(A Blockchain App Architecture)
 4. 팀원들에게 17일까지 go를 모두 보고와야하고, 목요일 저녁 9시 7주간 진행할거라 공유하기.
 5. 스터디 담당자가 설명을 해주고, 나머지 사람들은 설명을 듣고나서 다음주까지 해오기
+
+## Study Plan 🗓️
+
+Cosmos turorials를 모두 읽고, 내용을 정리하고 서로 모르는 것을 물어보며 내용을 공유하는 스터디입니다. 결과물로는 https://github.com/koe7/cosmos-tutorial 에 내용을 요약해서 올립니다.  “What is Cosmos”를 제외한 나머지 부분은 총 385,841byte 였으며 한명당 매주 약 64306 bytes씩 내용을 요약하고 공유합니다. 
+
+### 1주차 고태건 
+What is Cosmos (4Pages)
+
+### 2주차 (60740)
+* A Blockchain App Architecture (33832) 
+* Accounts (13553)
+* Transactions (13355)
+
+### 3주차 (65909)
+* Messages (13890)
+* Modules (20038)
+* Protobuf (8235)
+* Multistore and Keepers (23746)
+
+### 4주차 (64001)
+* BaseApp (11083)
+* Queries (5127)
+* Events (6386)
+* Context (7084)
+* Migrations: on-chain upgrades (14515)
+* Inter-Blockchain Communication (14453)
+* Bridges (5353)
+
+### 5주차 (63352)
+* Running a Node, API, and CLI (23102)
+* Starport (11780)
+* Store Object - Make a Checkers Blockchain (16280)
+* Message - Create a Message to Create a Game (6560)
+* Message Handler - Create and Save a Game Properly (5630)
+
+### 6주차 (67212)
+* Message and Handler - Add a Way to Make a Move (8160)
+* Events - Emitting Game Information (4652)
+* Message and Handler - Make Sure a Player Can Reject a Game (7098)
+* Store FIFO - Put Your Games in Order (10545)
+* Store Field - Keep an Up-To-Date Game Deadlin e (4666)
+* Store Field - Record the Game Winner (4924)
+* EndBlock - Auto-expiring Games (9108)
+* Token - Let Players Set a Wager (15235)
+* Gas - Incentivize Players (2824)
+
+### 7주차 (64627)
+* Query - Help Find a Correct Move (6458)
+* IBC Token - Play With Cross-Chain Tokens (4028)
+* Migration - Introduce a Leaderboard After Production (30798)
+* CosmJS (8342)
+* CosmWasm (15001)
