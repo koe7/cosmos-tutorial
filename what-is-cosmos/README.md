@@ -1,0 +1,37 @@
+# What is Cosmos ?
+- Overall architecture of Cosmos network
+    - [http://wiki.hash.kr/index.php/코스모스코인](http://wiki.hash.kr/index.php/%EC%BD%94%EC%8A%A4%EB%AA%A8%EC%8A%A4%EC%BD%94%EC%9D%B8)
+    - TBFT : Tendermint Byzantine Fault Tolerant
+        - 비트나 이더 ⇒ 선 합의 후 블록생성
+            - 포크가 생길 수 있어서, 트랜잭션의 신뢰도가 100%가 아니다.
+            - 트랜잭션 확인까지 시간이 걸린다. ⇒ 이중지출 따위의 공격이 있을 수 있음. 금융 용도로 부적절
+            - 클라이언트가 무겁게시리 노드 전체를 들고 있어야 한다.
+        - 코스모스 ⇒ 선 블록생성 후 합의
+            - 마지막 블록 데이터만 들고 있어도 됨(Light client)
+    - Hub - Zone
+        - Zone끼리 P2P로 전부 통신을 해버리면 통신수가 quadratic하게 증가하기 때문에 Hub를 둠
+        - Zone의 각 마지막 블록을 Hub가 업데이트 함.
+        - Zone 간 Token transaction; 실제 이동이 아니라 보내는 체인에서 동결하고 받는 체인에서 해당 토큰의 대체품 제공
+    - Tendermint < - ABCI - > Cosmos SDK
+        - Tendermint
+            - Consensus layer + P2P networking layer
+        - ABCI : Application Blockchain Interface
+- Development
+    - Tendermint
+        - Configuration 할 게 거의 없다.
+            - [https://docs.tendermint.com/v0.35/nodes/configuration.html](https://docs.tendermint.com/v0.35/nodes/configuration.html#)
+        - 코스모스 SDK로 체인을 만들면 텐더민트는 알아서 사용되는 것.
+    - Cosmos SDK
+        - [https://tutorials.cosmos.network/academy/0-welcome/](https://tutorials.cosmos.network/academy/0-welcome/)
+        - 튜토리얼 아주 잘 되어있다. 이해/개발하는데 필요한 개념들도 잘 정리되어있다.
+    - Starport
+        - Cosmos SDK 아주 편하게 쓰라고 만들어 놓은 Interface
+- How to proceed with our study session
+    - 스타포트 문서
+        - [https://docs.starport.com/](https://docs.starport.com/)
+    - Cosmos SDK 튜토리얼도 어차피 스타포트로 시작
+        - 그냥 Cosmos SDK 튜토리얼 따라가면 된다~
+### What wanna learn more
+- TBFT 과정
+- ATOM 쓰임새
+- 이더민트 어떻게 사용되고있나 EVMOS
