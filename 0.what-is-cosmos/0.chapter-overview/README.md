@@ -1,0 +1,13 @@
+# Chapter Overview
+- Cosmos Network : 상호운용이 가능한(interoperable) 블록체인들로 이루어짐
+  - 이게 전반적인 블록체인 발전에 어떻게 영향을 끼치는가?
+- 블록체인 기술의 역사
+- 코스모스 생태계
+  - Wallet, Service, Token, DApp
+- ATOM: 첫번째 Cosmos Hub의 네이티브 토큰
+  - 이거로 스테이킹 해보기(With Kplr)
+- Developer resources
+  - CosmosSDK
+  - Tendermint Core
+  - Cosmos Hub
+  - IBC
