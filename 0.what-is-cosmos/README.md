@@ -2,11 +2,11 @@
 - Overall architecture of Cosmos network
     - [http://wiki.hash.kr/index.php/코스모스코인](http://wiki.hash.kr/index.php/%EC%BD%94%EC%8A%A4%EB%AA%A8%EC%8A%A4%EC%BD%94%EC%9D%B8)
     - TBFT : Tendermint Byzantine Fault Tolerant
-        - 비트나 이더 ⇒ 선 합의 후 블록생성
+        - 비트나 이더 ⇒ 선 블록생성 후 합의
             - 포크가 생길 수 있어서, 트랜잭션의 신뢰도가 100%가 아니다.
             - 트랜잭션 확인까지 시간이 걸린다. ⇒ 이중지출 따위의 공격이 있을 수 있음. 금융 용도로 부적절
             - 클라이언트가 무겁게시리 노드 전체를 들고 있어야 한다.
-        - 코스모스 ⇒ 선 블록생성 후 합의
+        - 코스모스 ⇒ 선 합의 후 
             - 마지막 블록 데이터만 들고 있어도 됨(Light client)
     - Hub - Zone
         - Zone끼리 P2P로 전부 통신을 해버리면 통신수가 quadratic하게 증가하기 때문에 Hub를 둠
