@@ -32,8 +32,6 @@
 Cosmos turorials를 모두 읽고, 내용을 정리하고 서로 모르는 것을 물어보며 내용을 공유하는 스터디입니다. 결과물로는 https://github.com/koe7/cosmos-tutorial 에 내용을 요약해서 올립니다.  “What is Cosmos”를 제외한 나머지 부분은 총 385,841byte 였으며 한명당 매주 약 64306 bytes씩 내용을 요약하고 공유합니다. 
 
 ### 1주차 태건
-[@VideoAmp/team-name]( https://github.com/orgs/VideoAmp/teams/team-name/members )
-
 What is Cosmos (4Pages)
 
 ### 2주차 동욱 (60740)
