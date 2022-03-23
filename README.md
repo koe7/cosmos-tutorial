@@ -31,21 +31,23 @@
 
 Cosmos turorials를 모두 읽고, 내용을 정리하고 서로 모르는 것을 물어보며 내용을 공유하는 스터디입니다. 결과물로는 https://github.com/koe7/cosmos-tutorial 에 내용을 요약해서 올립니다.  “What is Cosmos”를 제외한 나머지 부분은 총 385,841byte 였으며 한명당 매주 약 64306 bytes씩 내용을 요약하고 공유합니다. 
 
-### 1주차 고태건 
+### 1주차 태건
+[@VideoAmp/team-name]( https://github.com/orgs/VideoAmp/teams/team-name/members )
+
 What is Cosmos (4Pages)
 
-### 2주차 (60740)
+### 2주차 동욱 (60740)
 * A Blockchain App Architecture (33832) 
 * Accounts (13553)
 * Transactions (13355)
 
-### 3주차 (65909)
+### 3주차 현민 (65909)
 * Messages (13890)
 * Modules (20038)
 * Protobuf (8235)
 * Multistore and Keepers (23746)
 
-### 4주차 (64001)
+### 4주차 은호 (64001)
 * BaseApp (11083)
 * Queries (5127)
 * Events (6386)
@@ -54,14 +56,14 @@ What is Cosmos (4Pages)
 * Inter-Blockchain Communication (14453)
 * Bridges (5353)
 
-### 5주차 (63352)
+### 5주차 재복 (63352)
 * Running a Node, API, and CLI (23102)
 * Starport (11780)
 * Store Object - Make a Checkers Blockchain (16280)
 * Message - Create a Message to Create a Game (6560)
 * Message Handler - Create and Save a Game Properly (5630)
 
-### 6주차 (67212)
+### 6주차 수진 (67212)
 * Message and Handler - Add a Way to Make a Move (8160)
 * Events - Emitting Game Information (4652)
 * Message and Handler - Make Sure a Player Can Reject a Game (7098)
@@ -72,7 +74,7 @@ What is Cosmos (4Pages)
 * Token - Let Players Set a Wager (15235)
 * Gas - Incentivize Players (2824)
 
-### 7주차 (64627)
+### 7주차 태건 (64627)
 * Query - Help Find a Correct Move (6458)
 * IBC Token - Play With Cross-Chain Tokens (4028)
 * Migration - Introduce a Leaderboard After Production (30798)
