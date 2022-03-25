@@ -1,4 +1,4 @@
-## Accounts
+## Transactions
 트랜잭션은 end-users에 의해 생성되는 오브젝트며, 애플리케이션의 상태 변경을 만든다.
 
 ### Transaction process from an end-user perspective
