@@ -72,7 +72,7 @@ What is Cosmos (4Pages)
 * Token - Let Players Set a Wager (15235)
 * Gas - Incentivize Players (2824)
 
-### 7주차 태건 (64627)
+### 7주차 우철 (64627)
 * Query - Help Find a Correct Move (6458)
 * IBC Token - Play With Cross-Chain Tokens (4028)
 * Migration - Introduce a Leaderboard After Production (30798)
